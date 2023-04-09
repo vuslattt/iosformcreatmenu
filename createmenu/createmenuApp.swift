@@ -11,7 +11,7 @@ import SwiftUI
 struct createmenuApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(name: "", price: "", currencyunit: "", description: "")
         }
     }
 }
